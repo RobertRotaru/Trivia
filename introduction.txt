@@ -1,0 +1,4 @@
+Welcome! 
+In this trivia you will have 10 answers with multiple choice,
+from various topics. 
+Click "Play" to start the game!
