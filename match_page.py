@@ -8,10 +8,9 @@ import tkinter as tk
 from functools import partial
 import os
 
-icon = "Trivia/assets/the_icon.ico"
-introd = "Trivia/introduction.txt"
-path_intro = os.path.abspath(introd)
-path_icon = os.path.abspath(icon)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+path_intro = os.path.join(BASE_DIR, "introduction.txt")
+path_icon = os.path.join(BASE_DIR, "assets", "the_icon.ico")
 
 # WINDOWS AND GLOBALS
 
